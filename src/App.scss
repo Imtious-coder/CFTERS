@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.button1 {
+  color: #ffffff;
+  text-align: center;
+  border-radius: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3d00b7;
+  cursor: pointer;
+  transition: 0.3s all;
+  box-sizing: border-box;
+}
+.button2 {
+  color: #3d00b7;
+  text-align: center;
+  border-radius: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #3d00b7;
+  cursor: pointer;
+  transition: 0.3s all;
+  &:hover {
+    background: #3d00b7;
+    color: #ffffff;
+  }
+}
