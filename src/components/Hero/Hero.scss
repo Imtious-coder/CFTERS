@@ -1,0 +1,127 @@
+$DM: "DM Sans", sans-serif;
+
+// HERO START
+.hero-wrapper {
+  h1 {
+    font-family: "Integral CF", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.05em;
+    color: #000000;
+  }
+  h6 {
+    font-family: $DM;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: #565656;
+  }
+  .hero-cta-btn {
+    align-items: center;
+    padding: 20px 40px;
+    height: 65px;
+    border-radius: 60px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    font-family: "Averta Demo PE Cutted Demo";
+    letter-spacing: 0.065em;
+    color: #ffffff;
+  }
+  .count-up {
+    h2 {
+      font-family: "Integral CF";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 48px;
+      letter-spacing: 0.05em;
+      color: #000000;
+    }
+    p {
+      font-family: $DM;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 160%;
+      color: #565656;
+    }
+  }
+  .card {
+    background: none !important;
+    .card-main-image {
+      width: 400px;
+      height: 440px;
+      border-radius: 24px;
+    }
+    .card-details {
+      width: 400px;
+      height: 100%;
+      .card-title {
+        font-family: $DM;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 36px;
+        letter-spacing: -0.05em;
+        color: #ffffff;
+      }
+      .card-profile-image {
+        width: 32px;
+        height: 32.82px;
+      }
+      .card-profile-name {
+        font-family: $DM;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 26px;
+        color: #ffffff;
+      }
+      .card-footer {
+        position: relative;
+        top: 220px;
+        width: 100%;
+        height: 73.85px;
+        background: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(25px);
+        border-radius: 12px;
+        .footer-title {
+          font-family: $DM;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 16px;
+          color: #ffffff;
+        }
+        .footer-info {
+          font-family: $DM;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 21px;
+          color: #ffffff;
+        }
+        .icon {
+          color: white;
+          font-size: 21px;
+        }
+      }
+    }
+  }
+  .card-stamp {
+    position: absolute;
+    width: 101px;
+    height: 101px;
+    left: -30px;
+    top: 240px;
+    z-index: 4;
+  }
+  // .swiper-slide-next {
+  //   width: 400px !important;
+  //   transform: translate3d(calc(-452px + 10.25%), 0px, -100px) rotateZ(0deg) !important;
+  // }
+}
