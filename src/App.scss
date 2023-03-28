@@ -4,6 +4,36 @@
   box-sizing: border-box;
 }
 
+// FONTS
+@font-face {
+  font-family: "Integral CF";
+  src: url("https://db.onlinewebfonts.com/t/f1fcc5aed1e20fc0cdb9f8a7573625bd.eot");
+  src: url("https://db.onlinewebfonts.com/t/f1fcc5aed1e20fc0cdb9f8a7573625bd.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/f1fcc5aed1e20fc0cdb9f8a7573625bd.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/f1fcc5aed1e20fc0cdb9f8a7573625bd.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/f1fcc5aed1e20fc0cdb9f8a7573625bd.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/f1fcc5aed1e20fc0cdb9f8a7573625bd.svg#Integral CF")
+      format("svg");
+}
+@font-face {
+  font-family: "Averta Demo PE";
+  src: url("https://db.onlinewebfonts.com/t/3114dbb517b7c67b80e322545c5f565f.eot");
+  src: url("https://db.onlinewebfonts.com/t/3114dbb517b7c67b80e322545c5f565f.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/3114dbb517b7c67b80e322545c5f565f.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/3114dbb517b7c67b80e322545c5f565f.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/3114dbb517b7c67b80e322545c5f565f.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/3114dbb517b7c67b80e322545c5f565f.svg#Averta Demo PE")
+      format("svg");
+}
+
 .button1 {
   color: #ffffff;
   text-align: center;
@@ -41,4 +71,3 @@
   font-weight: 400;
   color: #ffffff;
 }
-
