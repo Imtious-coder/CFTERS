@@ -1,12 +1,12 @@
 import React from "react";
-import Hero from "../components/Hero/Hero";
+import TopCollections from "../components/TopCollections/TopCollections";
 import Transaction from "../components/Transaction/Transaction";
 
 const Home = () => {
   return (
     <>
-      {/* <Hero /> */}
       <Transaction />
+      <TopCollections />
     </>
   );
 };

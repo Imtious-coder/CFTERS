@@ -1,0 +1,183 @@
+.top-collection-wrapper {
+  .left-card {
+    img {
+      width: 400px;
+      border-radius: 24px;
+    }
+    .card-details {
+      width: 100%;
+      margin: auto;
+      img {
+        width: 48px;
+        height: 48px;
+      }
+      .name {
+        font-family: "DM Sans", sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        color: #000000;
+      }
+      .stock {
+        font-family: "DM Sans", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        color: #363639;
+      }
+      .bid {
+        font-family: "DM Sans", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        color: #3a3a3a;
+      }
+      .icon {
+        font-size: 21px;
+      }
+      .amount {
+        font-family: "DM Sans", sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 21px;
+        color: #3a3a3a;
+      }
+    }
+  }
+  .middle-cards {
+    img {
+      width: 147px;
+      height: 147px;
+    }
+    .name {
+      font-family: "DM Sans", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 26px;
+      color: #000000;
+    }
+    .profile-image {
+      height: 34px;
+      width: 34px;
+    }
+    .amount-btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 8px;
+      height: 32px;
+      border: 1px solid #00ac4f;
+      border-radius: 6px;
+      font-family: "DM Sans", sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 16px;
+      color: #00ac4f;
+      .icon {
+        font-size: 14px;
+      }
+    }
+    .count {
+      font-family: "DM Sans", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 18px;
+      color: #757575;
+    }
+    .cta-btn,
+    .cta-btn-2 {
+      padding: 14px 20px;
+      height: 45px;
+      border-radius: 50px;
+      font-family: "Averta Demo PE Cutted Demo", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+    }
+  }
+  .top-cards {
+    h2 {
+      font-family: "Integral CF";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+      color: #000000;
+    }
+    h3 {
+      font-family: "DM Sans", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 23px;
+      color: #3d00b7;
+    }
+    .number {
+      font-family: "DM Sans", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 25px;
+      text-align: center;
+      letter-spacing: -0.025em;
+      color: #000000;
+    }
+    img {
+      width: 60px;
+      height: 60px;
+    }
+    .blue-tick {
+      position: absolute;
+      font-size: 26px;
+      color: #1e93ff;
+    }
+    .name {
+      font-family: "DM Sans", sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 103%;
+      letter-spacing: -0.025em;
+      color: #000000;
+    }
+    .nft {
+      font-family: "Poppins", sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 14px;
+      letter-spacing: -0.025em;
+      color: #636363;
+      .icon {
+        font-size: 24px;
+        color: #000000;
+      }
+    }
+    .rank-green,
+    .rank-red {
+      font-family: "Poppins", sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 103%;
+      letter-spacing: -0.025em;
+    }
+    .rank-green {
+      color: #14c8b0;
+    }
+    .rank-red {
+      color: #ff002e;
+    }
+    .card-border {
+      border-bottom: 1px solid #f0f0f0;
+    }
+  }
+}
