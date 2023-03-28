@@ -12,23 +12,29 @@ const TopCollections = () => {
       <section className="top-collection-wrapper py-10 sm:py-20 px-5 md:px-0">
         <div className="container mx-auto">
           <div className="grid grid-cols-3 gap-5">
-            <div className="col-span-3 lg:col-span-1 left-card">
+            <div className="col-span-3 flex flex-col sm:flex-row lg:flex-col lg:col-span-1 left-card">
               <img src={Image1} alt="main_image" className="mx-auto mb-7" />
-              <div className="flex justify-center xl:justify-between gap-10 xl:gap-0 card-details">
-                <div className="flex items-center gap-2">
+              <div className="flex sm:pl-10 lg:pl-0 flex-col lg:flex-row justify-center xl:justify-between gap-5 lg:gap-10 xl:gap-0 card-details">
+                <div className="flex flex-col sm:flex-row items-center gap-2">
                   <img
                     src={Profile}
                     alt="profile_image"
                     className="profile-image"
                   />
                   <div>
-                    <p className="name mb-1">The Futr Abstr</p>
-                    <p className="stock">10 in the stock</p>
+                    <p className="name mb-1 text-center sm:text-start">
+                      The Futr Abstr
+                    </p>
+                    <p className="stock text-center sm:text-start">
+                      10 in the stock
+                    </p>
                   </div>
                 </div>
                 <div>
-                  <p className="bid mb-1">Highest Bid</p>
-                  <div className="flex items-center gap-2">
+                  <p className="bid mb-1 text-center sm:text-start">
+                    Highest Bid
+                  </p>
+                  <div className="flex items-center justify-center sm:justify-start gap-2">
                     <SiEthereum className="icon" />
                     <p className="amount">0.25 ETH</p>
                   </div>
