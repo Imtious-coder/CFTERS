@@ -41,13 +41,13 @@ const TopCollections = () => {
                 </div>
               </div>
             </div>
-            <div className="col-span-3 lg:col-span-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 middle-cards lg:border-r-2 mt-5 lg:mt-0">
+            <div className="col-span-3 lg:col-span-1 flex flex-col sm:flex-row flex-wrap lg:flex-col gap-10 lg:gap-5 middle-cards lg:border-r-2 mt-5 lg:mt-0">
               {middleCards?.map(
                 ({ image, name, nft, profileImage, count, button }, index) => {
                   return (
                     <div
                       key={index}
-                      className="flex flex-col sm:flex-row items-center justify-center xl:justify-start gap-5 mb-10"
+                      className="flex flex-col sm:flex-row items-center lg:items-start justify-center xl:justify-start gap-5 mb-10 lg:mb-0 "
                     >
                       <img
                         src={image}
