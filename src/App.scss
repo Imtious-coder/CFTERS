@@ -71,3 +71,16 @@
   font-weight: 400;
   color: #ffffff;
 }
+.button4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #2639ed;
+  border-radius: 60px;
+  color: #2639ed;
+  &:hover {
+    background: #2639ed;
+    color: #ffffff;
+  }
+}

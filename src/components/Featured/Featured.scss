@@ -1,0 +1,67 @@
+.featured-wrapper {
+  h1 {
+    font-family: "Integral CF", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+  }
+  h2 {
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+  }
+  .main-image {
+    width: 265.85px;
+    height: 272.27px;
+  }
+  .main-image-radius1 {
+    border-radius: 11.0008px;
+  }
+  .main-image-radius2 {
+    border-radius: 24px;
+  }
+  .main-image-radius3 {
+    border-radius: 12px;
+  }
+  .side-images {
+    width: 103.59px;
+    height: 85.26px;
+  }
+  .side-images-radius1 {
+    border-radius: 11.0008px;
+  }
+  .side-images-radius2 {
+    border-radius: 21.36px;
+  }
+  .side-images-radius3 {
+    border-radius: 18.6px;
+  }
+  .side-images-radius4 {
+    border-radius: 12px;
+  }
+  .profile-image {
+    width: 28px;
+    height: 28px;
+  }
+  .name {
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+  }
+  .total-btn {
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11.0008px;
+    line-height: 14px;
+    padding: 10px 20px;
+  }
+}
