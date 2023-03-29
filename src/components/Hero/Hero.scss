@@ -2,9 +2,9 @@ $DM: "DM Sans", sans-serif;
 
 // HERO START
 .hero-wrapper {
+  height: auto !important;
   h1 {
     font-family: "Integral CF", sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 48px;
@@ -13,11 +13,14 @@ $DM: "DM Sans", sans-serif;
   }
   h6 {
     font-family: $DM;
-    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 160%;
     color: #565656;
+  }
+  .images {
+    height: auto;
+    width: 100%;
   }
   .hero-cta-btn {
     align-items: center;
@@ -28,7 +31,7 @@ $DM: "DM Sans", sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 25px;
-    font-family: "Averta Demo PE Cutted Demo";
+    font-family: "Averta Demo PE Cutted Demo", sans-serif;
     letter-spacing: 0.065em;
     color: #ffffff;
   }
@@ -52,14 +55,22 @@ $DM: "DM Sans", sans-serif;
     }
   }
   .card {
+    height: 350px;
+    width: 100%;
+    margin: 0px auto;
+    background: red;
+    // border: 5px solid red;
     background: none !important;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
     .card-main-image {
-      width: 400px;
-      height: 440px;
+      width: 100%;
+      height: 100%;
       border-radius: 24px;
     }
     .card-details {
-      width: 400px;
+      width: 100%;
       height: 100%;
       .card-title {
         font-family: $DM;
@@ -83,9 +94,9 @@ $DM: "DM Sans", sans-serif;
       }
       .card-footer {
         position: relative;
-        top: 220px;
+        // top: 220px;
         width: 100%;
-        height: 73.85px;
+        min-height: 73.85px;
         background: rgba(255, 255, 255, 0.2);
         backdrop-filter: blur(25px);
         border-radius: 12px;
@@ -118,10 +129,39 @@ $DM: "DM Sans", sans-serif;
     height: 101px;
     left: -30px;
     top: 240px;
-    z-index: 4;
+    z-index: 60;
   }
-  // .swiper-slide-next {
-  //   width: 400px !important;
-  //   transform: translate3d(calc(-452px + 10.25%), 0px, -100px) rotateZ(0deg) !important;
-  // }
+}
+
+@media only screen and (min-width: 640px) {
+  .hero-wrapper {
+    .card {
+      height: 440px !important;
+      width: 400px !important;
+      .card-main-image {
+        height: 440px !important;
+        width: 400px !important;
+      }
+      .card-footer {
+        top: 220px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .hero-wrapper {
+    .card {
+      .h1 {
+        height: 440px !important;
+      }
+      .h2 {
+        height: 391.6px !important;
+        margin: 24.2px 0px;
+      }
+      .h3 {
+        height: 341px !important;
+        margin: 49.5px 0px;
+      }
+    }
+  }
 }
