@@ -84,3 +84,15 @@
     color: #ffffff;
   }
 }
+.btn-grey {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(220, 220, 220, 0.2);
+  border-radius: 100px;
+  transition: .3s all;
+  &:hover {
+    background: #3d00b7;
+    color: #ffffff!important;
+  }
+}

@@ -1,0 +1,112 @@
+.all-nft-wrapper {
+  background: rgba(217, 224, 236, 0.2);
+
+  h1 {
+    font-family: "Integral CF", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    color: #000000;
+  }
+  .all-btn {
+    padding: 10px 20px;
+    background: #3d00b7;
+    border-radius: 100px;
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffffff;
+  }
+  .category-btn,
+  .filter-btn {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 10px 20px;
+  }
+  .category-btn {
+    color: #000000;
+  }
+  .filter-btn {
+    color: #371c87;
+    .filter-icon {
+      font-weight: 700;
+      font-size: 24px !important;
+    }
+  }
+  .card {
+    width: 269.88px;
+    height: 373px;
+    background: #ffffff;
+    border: 1.09706px solid rgba(242, 242, 242, 0.5);
+    border-radius: 13.1647px;
+    .main-image {
+      width: 247.94px !important;
+      height: 222.7px;
+    }
+    .profile-image {
+      width: 30.72px;
+      height: 30.72px;
+    }
+    .name {
+      font-family: "DM Sans", sans-serif;
+      font-weight: 700;
+      font-size: 19.7471px;
+      line-height: 19px;
+      color: #000000;
+    }
+    .nft {
+      font-family: "DM Sans", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 10.9706px;
+      line-height: 14px;
+      color: #00ac4f;
+      .icon {
+        font-size: 15.36px;
+      }
+    }
+    .numbers {
+      font-family: "DM Sans", sans-serif;
+      font-weight: 500;
+      font-size: 13.1647px;
+      line-height: 19px;
+      color: #838383;
+    }
+    .border-bottom {
+      border-bottom: 1.06366px solid #f4f4f4;
+    }
+    .time-btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 4.38824px 10.9706px;
+      background: #f5f5f5;
+      border-radius: 109.706px;
+      font-family: "DM Sans", sans-serif;
+      font-weight: 700;
+      font-size: 10.9706px;
+      line-height: 19px;
+      text-align: right;
+      color: #5539a8;
+    }
+    .bid {
+      font-family: "DM Sans", sans-serif;
+      font-weight: 500;
+      font-size: 15.3588px;
+      line-height: 20px;
+      color: #4f33a3;
+    }
+  }
+  .more-btn {
+    padding: 20px 40px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
