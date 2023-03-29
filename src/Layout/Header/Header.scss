@@ -1,13 +1,15 @@
-$DM: "DM Sans", sans-serif;
 $LS: 0.04em;
 
 // MAIN HEADER
 .header-wrapper {
-  height: 60px;
   display: flex;
   align-items: center;
+  height: 110px;
   border-bottom: 1px solid #efefef;
 
+  .logo {
+    width: 180px;
+  }
   h1 {
     font-size: 24px;
     font-weight: 700;
@@ -18,20 +20,18 @@ $LS: 0.04em;
     align-items: center;
     cursor: pointer;
     border-right: 1px solid #f4f4f4;
-    font-family: "Integral CF", sans-serif;
   }
   .navigation {
     font-size: 16px;
     font-weight: 500;
     line-height: 21px;
     letter-spacing: $LS;
-    font-family: $DM;
   }
   .search-bar {
     width: 100%;
     height: 50px;
-    border: 2px solid #efefef;
     border-radius: 100px;
+    border: 2px solid #efefef;
     input {
       background-color: transparent;
       border: none;
@@ -52,32 +52,30 @@ $LS: 0.04em;
   }
   .nav-upload-btn {
     height: 50px;
-    padding: 18px 40px;
     font-size: 14px;
     font-weight: 700;
+    line-height: 14px;
     letter-spacing: $LS;
+    padding: 18px 40px;
   }
   .nav-wallet-btn {
     height: 50px;
     padding: 18px 22px;
     font-size: 14px;
+    line-height: 14px;
     font-weight: 700;
-    letter-spacing: $LS;
   }
   .menu-icon {
     color: #3d00b7;
     font-weight: 700;
   }
 }
-@media only screen and (min-width: 1024px) {
-  .header-wrapper {
-    height: 110px;
-  }
-}
 // MAIN HEADER ENDS HERE
 
 // MOBILE HEADER
 .mobile-header {
+  width: 100%;
+  overflow: hidden;
   background: #3d00b7;
   transition: 0.4s all;
   .navigation {
@@ -85,8 +83,8 @@ $LS: 0.04em;
     font-weight: 500;
     line-height: 21px;
     letter-spacing: $LS;
-    font-family: $DM;
     border-radius: 50px;
+    border: 1px solid rgb(255, 255, 255);
   }
   .search-bar {
     width: 100%;
@@ -94,9 +92,6 @@ $LS: 0.04em;
     border: 2px solid #efefef;
     border-radius: 100px;
     input {
-      background-color: transparent;
-      border: none;
-      outline: none;
       width: 90%;
       height: 50px;
       border-radius: 100px;
@@ -105,6 +100,9 @@ $LS: 0.04em;
       font-weight: 500;
       line-height: 21px;
       letter-spacing: $LS;
+      border: none;
+      outline: none;
+      background-color: transparent;
     }
     .search-icon {
       font-size: 24px;

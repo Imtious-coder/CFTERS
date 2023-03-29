@@ -4,6 +4,18 @@
   box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(200, 199, 199);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(180deg, #5500ff, #7734ffd2);
+  border-radius: 10px;
+}
+
 // FONTS
 @font-face {
   font-family: "Integral CF";
@@ -90,9 +102,17 @@
   align-items: center;
   background: rgba(220, 220, 220, 0.2);
   border-radius: 100px;
-  transition: .3s all;
+  transition: 0.3s all;
   &:hover {
     background: #3d00b7;
-    color: #ffffff!important;
+    color: #ffffff !important;
   }
+}
+
+// FONT STYLES
+.Integral {
+  font-family: "Integral CF", sans-serif;
+}
+.DM {
+  font-family: "DM Sans", sans-serif;
 }

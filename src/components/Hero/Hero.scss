@@ -58,8 +58,6 @@ $DM: "DM Sans", sans-serif;
     height: 350px;
     width: 100%;
     margin: 0px auto;
-    background: red;
-    // border: 5px solid red;
     background: none !important;
     display: flex;
     justify-content: center;
@@ -94,7 +92,6 @@ $DM: "DM Sans", sans-serif;
       }
       .card-footer {
         position: relative;
-        // top: 220px;
         width: 100%;
         min-height: 73.85px;
         background: rgba(255, 255, 255, 0.2);
