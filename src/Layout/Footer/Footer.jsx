@@ -7,48 +7,104 @@ import "./Footer.scss";
 const Footer = () => {
   return (
     <>
-      <footer className="main-footer py-5 sm:py-10 px-5 px:md-0">
+      {/* main-footer */}
+      <footer className="main-footer py-5 sm:py-20 px-5 px:md-0">
         <div className="container mx-auto">
-          <div className="grid grid-cols-12 lg:grid-cols-6 gap-5">
+          <div className="grid grid-cols-12 lg:grid-cols-6 gap-5 lg:gap-24">
             <div className="col-span-12 lg:col-span-2">
-              <h1 className="mb-5">NFTERS</h1>
-              <p className="mb-5">
+              <h1 className="mb-7 Integral text-center sm:text-start">
+                NFTERS
+              </h1>
+              <p className="mb-8 Averta text-center sm:text-start">
                 The world’s first and largest digital marketplace for crypto
                 collectibles and non-fungible tokens (NFTs). Buy, sell, and
                 discover exclusive digital items.
               </p>
-              <div className="flex items-center gap-5">
-                <Link to="/">
+              {/* social media links */}
+              <div className="flex items-center justify-center sm:justify-start gap-4">
+                <Link
+                  to="https://www.facebook.com/imtious.midul/"
+                  target={"_blank"}
+                >
                   <FaFacebook className="facebook-icon" />
                 </Link>
-                <Link to="/">
+                <Link to="https://github.com/Imtious-coder" target={"_blank"}>
                   <AiFillTwitterCircle className="twitter-icon" />
                 </Link>
-                <Link to="/" className="linkedin-icon-p">
+                <Link
+                  to="https://www.linkedin.com/in/imtious/"
+                  target={"_blank"}
+                  className="linkedin-icon-p"
+                >
                   <FaLinkedinIn className="linkedin-icon p-2" />
                 </Link>
               </div>
             </div>
-            <div className="col-span-6 md:col-span-3 lg:col-span-1 my-5 lg:my-0">
+            <div className="DM col-span-6 md:col-span-3 lg:col-span-1 my-5 lg:my-0">
               <h5 className="mb-2 md:mb-6">Market Place</h5>
-              <h6>All NFTs</h6>
-              <h6>New</h6>
-              <h6>Art</h6>
-              <h6>Sports</h6>
-              <h6>Utility</h6>
-              <h6>Music</h6>
-              <h6>Domain Name</h6>
+              <h6>
+                <Link to="/" target={"_blank"}>
+                  All NFTs
+                </Link>
+              </h6>
+              <h6>
+                <Link to="/" target={"_blank"}>
+                  New
+                </Link>
+              </h6>
+              <h6>
+                <Link to="/" target={"_blank"}>
+                  Art
+                </Link>
+              </h6>
+              <h6>
+                <Link to="/" target={"_blank"}>
+                  Sports
+                </Link>
+              </h6>
+              <h6>
+                <Link to="/" target={"_blank"}>
+                  Utility
+                </Link>
+              </h6>
+              <h6>
+                <Link to="/" target={"_blank"}>
+                  Music
+                </Link>
+              </h6>
+              <h6>
+                <Link to="/" target={"_blank"}>
+                  Domain Name
+                </Link>
+              </h6>
             </div>
-            <div className="col-span-6 md:col-span-3 lg:col-span-1 my-5 lg:my-0">
+            <div className="DM col-span-6 md:col-span-3 lg:col-span-1 my-5 lg:my-0">
               <h5 className="mb-2 md:mb-6">My Account</h5>
-              <h6>Profile</h6>
-              <h6>Favourite</h6>
-              <h6>My Collections</h6>
-              <h6>Settings</h6>
+              <h6>
+                <Link to="/" target={"_blank"}>
+                  Profile
+                </Link>
+              </h6>
+              <h6>
+                <Link to="/" target={"_blank"}>
+                  Favourite
+                </Link>
+              </h6>
+              <h6>
+                <Link to="/" target={"_blank"}>
+                  My Collections
+                </Link>
+              </h6>
+              <h6>
+                <Link to="/" target={"_blank"}>
+                  Settings
+                </Link>
+              </h6>
             </div>
-            <div className="col-span-12 md:col-span-6 lg:col-span-2 md:mt-5 lg:mt-0">
+            {/* news-letter */}
+            <div className="DM col-span-12 md:col-span-6 lg:col-span-2 md:mt-5 lg:mt-0">
               <h5 className="mb-2 md:mb-6">Stay In The Loop</h5>
-              <p className="invite-message mb-5">
+              <p className="invite-message mb-6">
                 Join our mailing list to stay in the loop with our newest
                 feature releases, NFT drops, and tips and tricks for navigating
                 NFTs.
@@ -69,8 +125,11 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-      <footer className="footer-bottom flex justify-center py-5">
-        <h6>Copyright &copy; {new Date().getFullYear()} NFTERS</h6>
+      {/* footer bottom */}
+      <footer className="footer-bottom flex justify-center py-6">
+        <h6 className="Averta">
+          Copyright &copy; {new Date().getFullYear()} NFTERS
+        </h6>
       </footer>
     </>
   );

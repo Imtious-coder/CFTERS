@@ -105,7 +105,7 @@ const TopCollections = () => {
                         border === true ? "card-border" : ""
                       } flex flex-wrap justify-end sm:justify-center gap-5 items-center mb-10 sm:mb-5 pb-5`}
                     >
-                      <p className="number">{id}</p>
+                      <p className="DM number">{id}</p>
                       <div className="block mx-auto">
                         <div className="relative">
                           <img src={image} alt="profile" className="mx-auto" />

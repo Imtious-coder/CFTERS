@@ -1,33 +1,23 @@
-$DM: "DM Sans", sans-serif;
-
 .main-footer {
   border: 1px solid #f4f4f4;
   h1 {
-    color: #000000;
     font-size: 24px;
     font-weight: 700;
     line-height: 29px;
-    font-family: "Integral CF", sans-serif;
   }
   h5 {
-    font-family: "DM Sans";
     font-weight: 700;
     font-size: 18px;
-    line-height: 23px;
+    line-height: 23.44px;
     text-transform: capitalize;
-    color: #000000;
   }
   h6 {
-    font-family: "DM Sans";
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 28px;
     color: #3d3d3d;
   }
   p {
-    font-family: "Averta Demo PE Cutted Demo";
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 22.4px;
@@ -55,8 +45,6 @@ $DM: "DM Sans", sans-serif;
     border-radius: 100%;
   }
   .invite-message {
-    font-family: $DM;
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 22px;
@@ -82,8 +70,6 @@ $DM: "DM Sans", sans-serif;
       letter-spacing: 0.04em;
     }
     .footer-cta-btn {
-      font-family: $DM;
-      font-style: normal;
       padding: 15.1983px 30.3967px;
       height: 46.4px;
       font-size: 12.1587px;
@@ -100,6 +86,5 @@ $DM: "DM Sans", sans-serif;
     line-height: 22px;
     font-weight: 400;
     text-align: center;
-    font-family: "Averta Demo PE Cutted Demo";
   }
 }
