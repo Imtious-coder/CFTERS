@@ -1,4 +1,6 @@
-import React from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import React, { useEffect } from "react";
 import "swiper/css";
 import "swiper/css/effect-cards";
 import Dot from "../../assets/images/hero/Dot.png";
@@ -8,9 +10,12 @@ import { data } from "../../utils/HeroCardsData";
 import "./Hero.scss";
 
 const Hero = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
   return (
     <>
-      <section className="hero-wrapper py-5 sm:pt-14 sm:pb-28 px-5">
+      <section className="hero-wrapper py-5 sm:pt-14 sm:pb-28 px-5 overflow-hidden">
         <div className="container mx-auto relative">
           <img
             src={Dot}
@@ -18,7 +23,7 @@ const Hero = () => {
             className="absolute dots z-10 top-52 lg:top-auto lg:bottom-4 -left-12"
           />
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 xl:gap-24">
-            <div className="col-span-1 z-20">
+            <div data-aos="fade-right" className="col-span-1 z-20">
               <h1 className="Integral mb-6 text-center sm:text-start">
                 Discover, and collect Digital Art NFTs
               </h1>
@@ -26,7 +31,7 @@ const Hero = () => {
                 Digital marketplace for crypto collectibles and non-fungible
                 tokens (NFTs). Buy, Sell, and discover exclusive digital assets.
               </h6>
-              <button className="Averta button1 hero-cta-btn mb-8 mx-auto sm:mx-0">
+              <button className="hvr-grow-shadow Averta button1 hero-cta-btn mb-8 mx-auto sm:mx-0">
                 Explore Now
               </button>
               <div className="count-up flex flex-wrap justify-center sm:justify-start gap-6 pt-0.5">
@@ -44,7 +49,7 @@ const Hero = () => {
                 </div>
               </div>
             </div>
-            <div className="col-span-1 images relative">
+            <div data-aos="fade-left" className="col-span-1 images relative">
               <div className="px-5 relative">
                 {/* stamp image */}
                 <img
