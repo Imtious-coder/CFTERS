@@ -2,6 +2,8 @@
 
 #### Preview: https://nfters-io.netlify.app/
 
+<a  href="https://imtious-coder.github.io/ALGONIO/"><img  width="100%"  height="100%"  src="./public/website.png"></a>
+
 # Packages Installed
 
 ###### Created react app with redux
