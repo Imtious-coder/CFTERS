@@ -1,6 +1,7 @@
 import React from "react";
 import "swiper/css";
 import "swiper/css/effect-cards";
+import Dot from "../../assets/images/hero/Dot.png";
 import Profile from "../../assets/images/hero/hero-card-profile.png";
 import Stamp from "../../assets/images/hero/hero-card-stamp.png";
 import { data } from "../../utils/HeroCardsData";
@@ -10,9 +11,14 @@ const Hero = () => {
   return (
     <>
       <section className="hero-wrapper py-5 sm:pt-14 sm:pb-28 px-5">
-        <div className="container mx-auto">
+        <div className="container mx-auto relative">
+          <img
+            src={Dot}
+            alt="dot_bg"
+            className="absolute dots z-10 top-52 lg:top-auto lg:bottom-4 -left-12"
+          />
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 xl:gap-24">
-            <div className="col-span-1">
+            <div className="col-span-1 z-20">
               <h1 className="Integral mb-6 text-center sm:text-start">
                 Discover, and collect Digital Art NFTs
               </h1>

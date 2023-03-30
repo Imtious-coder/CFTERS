@@ -29,6 +29,7 @@ const AllNft = () => {
           <h1 className="Integral mb-9 text-center sm:text-start">
             Discover More NFTS
           </h1>
+          {/* filter buttons */}
           <div className="flex flex-col lg:flex-row justify-center lg:justify-between gap-3 items-center mb-10">
             <div className="DM flex items-center justify-center md:justify-start flex-wrap gap-3">
               <button onClick={() => handleData()} className="button3 all-btn">
@@ -75,6 +76,7 @@ const AllNft = () => {
               <RiFilter3Fill className="filter-icon" /> Filter
             </button>
           </div>
+          {/* cards */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
             {datas
               ?.slice(0, dataLength)
@@ -96,6 +98,7 @@ const AllNft = () => {
                       key={index}
                       className="col-span-1 card px-2.5 mx-auto xl:mx-0"
                     >
+                      {/* images */}
                       <div className="relative pt-2.5 flex flex-col items-center">
                         <img
                           src={image}
@@ -131,6 +134,7 @@ const AllNft = () => {
                           />
                         </div>
                       </div>
+                      {/* details */}
                       <h2 className="DM name pt-5 pl-2">{name}</h2>
                       <div className="DM flex justify-between items-center border-bottom ml-2">
                         <p className="nft flex items-center gap-1 mt-3 mb-5 ">
@@ -147,6 +151,7 @@ const AllNft = () => {
                 }
               )}
           </div>
+          {/* more nft button */}
           <button
             onClick={() => setDataLength(23)}
             className={`${
