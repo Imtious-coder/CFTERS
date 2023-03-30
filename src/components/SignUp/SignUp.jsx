@@ -1,4 +1,6 @@
-import React from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import React, { useEffect } from "react";
 import Image1 from "../../assets/images/sign-up-section/image1.png";
 import Image2 from "../../assets/images/sign-up-section/image2.png";
 import Image3 from "../../assets/images/sign-up-section/image3.png";
@@ -7,16 +9,19 @@ import Profile2 from "../../assets/images/sign-up-section/profile2.png";
 import "./SignUp.scss";
 
 const SignUp = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1500 });
+  }, []);
   return (
     <>
-      <section className="sign-up-wrapper py-10 sm:py-24 px-8 sm:px-5">
+      <section className="sign-up-wrapper py-10 sm:py-24 px-8 sm:px-5 overflow-hidden">
         <div className="container mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-2 xl:gap-20">
             {/* Images */}
             <div className="col-span-1 lg:col-span-2 xl:col-span-1">
               <div className="flex flex-col justify-center lg:justify-start sm:flex-row items-center gap-16">
                 <div>
-                  <div className="relative mb-12">
+                  <div data-aos="zoom-in" className="relative mb-12">
                     <img src={Image1} alt="main_image" className="main-image" />
                     <img
                       src={Profile1}
@@ -24,7 +29,10 @@ const SignUp = () => {
                       className="absolute -bottom-8 -right-8 profile"
                     />
                   </div>
-                  <div className="flex justify-center sm:justify-end">
+                  <div
+                    data-aos="zoom-in"
+                    className="flex justify-center sm:justify-end"
+                  >
                     <div className="relative">
                       <img
                         src={Image2}
@@ -39,7 +47,7 @@ const SignUp = () => {
                     </div>
                   </div>
                 </div>
-                <div className="relative">
+                <div data-aos="zoom-in" className="relative">
                   <img src={Image3} alt="right_image" className="right-image" />
                   <img
                     src={Profile2}
@@ -61,7 +69,7 @@ const SignUp = () => {
                 lorem id consectetur pretium diam ut. Pellentesque eu sit
                 blandit fringilla risus faucibus.
               </p>
-              <button className="Averta button1 sign-up-btn mx-auto md:mx-0">
+              <button className="Averta hvr-bounce-out button1 sign-up-btn mx-auto md:mx-0">
                 Sign Up Now
               </button>
             </div>

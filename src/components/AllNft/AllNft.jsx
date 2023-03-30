@@ -1,10 +1,17 @@
-import React, { useState } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import React, { useEffect, useState } from "react";
 import { FaEthereum } from "react-icons/fa";
 import { RiFilter3Fill } from "react-icons/ri";
 import { data } from "../../utils/AllNftCards";
 import "./AllNft.scss";
 
 const AllNft = () => {
+  // AOS
+  useEffect(() => {
+    AOS.init({ duration: 1500 });
+  }, []);
+
   // Hooks
   const [dataLength, setDataLength] = useState(16);
   const [datas, setDatas] = useState(data);
@@ -24,7 +31,7 @@ const AllNft = () => {
 
   return (
     <>
-      <section className="all-nft-wrapper py-10 sm:pt-16 sm:pb-12 px-5">
+      <section className="all-nft-wrapper py-10 sm:pt-16 sm:pb-12 px-5 overflow-hidden">
         <div className="container mx-auto">
           <h1 className="Integral mb-9 text-center sm:text-start">
             Discover More NFTS
@@ -32,47 +39,50 @@ const AllNft = () => {
           {/* filter buttons */}
           <div className="flex flex-col lg:flex-row justify-center lg:justify-between gap-3 items-center mb-10">
             <div className="DM flex items-center justify-center md:justify-start flex-wrap gap-3">
-              <button onClick={() => handleData()} className="button3 all-btn">
+              <button
+                onClick={() => handleData()}
+                className="button3 hvr-grow all-btn"
+              >
                 All Categories
               </button>
               <button
                 onClick={(e) => handleFilter(e)}
-                className="btn-grey category-btn"
+                className="btn-grey hvr-grow category-btn"
               >
                 Art
               </button>
               <button
                 onClick={(e) => handleFilter(e)}
-                className="btn-grey category-btn"
+                className="btn-grey hvr-grow category-btn"
               >
                 Celebrities
               </button>
               <button
                 onClick={(e) => handleFilter(e)}
-                className="btn-grey category-btn"
+                className="btn-grey hvr-grow category-btn"
               >
                 Gaming
               </button>
               <button
                 onClick={(e) => handleFilter(e)}
-                className="btn-grey category-btn"
+                className="btn-grey hvr-grow category-btn"
               >
                 Sport
               </button>
               <button
                 onClick={(e) => handleFilter(e)}
-                className="btn-grey category-btn"
+                className="btn-grey hvr-grow category-btn"
               >
                 Music
               </button>
               <button
                 onClick={(e) => handleFilter(e)}
-                className="btn-grey category-btn"
+                className="btn-grey hvr-grow category-btn"
               >
                 Crypto
               </button>
             </div>
-            <button className="DM flex items-center gap-2 btn-grey filter-btn">
+            <button className="DM hvr-grow flex items-center gap-2 btn-grey filter-btn">
               <RiFilter3Fill className="filter-icon" /> Filter
             </button>
           </div>
@@ -95,6 +105,7 @@ const AllNft = () => {
                 ) => {
                   return (
                     <div
+                      data-aos="zoom-in"
                       key={index}
                       className="col-span-1 card px-2.5 mx-auto xl:mx-0"
                     >
@@ -102,7 +113,7 @@ const AllNft = () => {
                       <div className="relative pt-2.5 flex flex-col items-center">
                         <img
                           src={image}
-                          alt="card_image"
+                          alt="main_image"
                           className={`${
                             radius === 13.16
                               ? "radius1"
@@ -111,6 +122,7 @@ const AllNft = () => {
                               : "radius3"
                           } main-image`}
                         />
+                        {/* profile images */}
                         <div className="flex absolute -bottom-3 left-2 items-center">
                           <img
                             src={profileImage1}
@@ -155,7 +167,7 @@ const AllNft = () => {
           <button
             onClick={() => setDataLength(23)}
             className={`${
-              dataLength === 23 ? "disabled" : "button2 more-btn"
+              dataLength === 23 ? "disabled" : "hvr-grow button2 more-btn"
             } mt-5 sm:mt-14 mx-auto`}
           >
             More NFTs

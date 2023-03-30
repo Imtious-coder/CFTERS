@@ -1,4 +1,6 @@
-import React from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import React, { useEffect } from "react";
 import { BsPatchCheckFill } from "react-icons/bs";
 import { SiEthereum } from "react-icons/si";
 import Image from "../../assets/images/top-collections/image.png";
@@ -7,16 +9,27 @@ import { middleCards, topCards } from "../../utils/TopCollectionsData";
 import "./TopCollections.scss";
 
 const TopCollections = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
   return (
     <>
-      <section className="top-collection-wrapper py-10 sm:py-32 px-5 md:px-2">
+      <section className="top-collection-wrapper py-10 sm:py-32 px-5 md:px-2 overflow-hidden">
         <div className="container mx-auto">
           <div className="grid grid-cols-3 gap-5 xl:gap-12">
             {/* left card */}
             <div className="col-span-3 flex flex-col sm:flex-row lg:flex-col lg:col-span-1 left-card">
-              <img src={Image} alt="main_image" className="mx-auto mb-8" />
+              <img
+                data-aos="fade-right"
+                src={Image}
+                alt="main_image"
+                className="mx-auto mb-8"
+              />
               {/* left card details */}
-              <div className="flex sm:pl-10 lg:pl-0 flex-col lg:flex-row justify-center xl:justify-between gap-5 lg:gap-10 xl:gap-0 card-details">
+              <div
+                data-aos="fade-up"
+                className="flex sm:pl-10 lg:pl-0 flex-col lg:flex-row justify-center xl:justify-between gap-5 lg:gap-10 xl:gap-0 card-details"
+              >
                 <div className="flex flex-col sm:flex-row items-center gap-2.5">
                   <img
                     src={Profile}
@@ -53,6 +66,7 @@ const TopCollections = () => {
                       className="flex flex-col sm:flex-row items-center lg:items-start justify-center xl:justify-start gap-5 mb-10 lg:mb-0 "
                     >
                       <img
+                        data-aos="zoom-in"
                         src={image}
                         alt="card_image"
                         className="card-image"
@@ -77,7 +91,7 @@ const TopCollections = () => {
                             button === "button1"
                               ? "button1 cta-btn"
                               : "button2 cta-btn-2"
-                          } Averta mt-4 mx-auto sm:mx-0`}
+                          } Averta mt-4 mx-auto sm:mx-0 hvr-grow`}
                         >
                           Place a bid
                         </button>
@@ -100,6 +114,7 @@ const TopCollections = () => {
                 ) => {
                   return (
                     <div
+                      data-aos="fade-left"
                       key={index}
                       className={`${
                         border === true ? "card-border" : ""

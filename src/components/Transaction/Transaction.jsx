@@ -1,9 +1,14 @@
-import React from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import React, { useEffect } from "react";
 import Image1 from "../../assets/images/transaction/transaction1.png";
 import Image2 from "../../assets/images/transaction/transaction2.png";
 import "./Transaction.scss";
 
 const Transaction = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1500 });
+  }, []);
   return (
     <>
       <section className="transaction-wrapper py-10 sm:py-28 px-3 sm:px-0">
@@ -13,7 +18,7 @@ const Transaction = () => {
               The amazing NFT art of the world here
             </h1>
             <div className="col-span-3 flex md:col-span-1 gap-3.5 px-5 sm:px-0">
-              <img src={Image1} alt="" />
+              <img data-aos="flip-left" src={Image1} alt="transaction" />
               <div>
                 <h6 className="mb-3 DM">Fast Transaction</h6>
                 <p className="DM">
@@ -23,7 +28,7 @@ const Transaction = () => {
               </div>
             </div>
             <div className="col-span-3 flex md:col-span-1 gap-3.5 px-5 sm:px-0">
-              <img src={Image2} alt="" />
+              <img data-aos="flip-left" src={Image2} alt="transaction" />
               <div>
                 <h6 className="mb-3 DM">Growth Transaction</h6>
                 <p className="DM">
