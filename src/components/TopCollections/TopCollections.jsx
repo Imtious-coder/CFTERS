@@ -9,7 +9,7 @@ import "./TopCollections.scss";
 const TopCollections = () => {
   return (
     <>
-      <section className="top-collection-wrapper py-10 sm:py-32 px-5 md:px-0">
+      <section className="top-collection-wrapper py-10 sm:py-32 px-5 md:px-2">
         <div className="container mx-auto">
           <div className="grid grid-cols-3 gap-5 xl:gap-12">
             {/* left card */}
@@ -103,7 +103,7 @@ const TopCollections = () => {
                       key={index}
                       className={`${
                         border === true ? "card-border" : ""
-                      } flex flex-wrap justify-end sm:justify-center lg:grid lg:grid-cols-4 gap-5 items-center mb-10 sm:mb-5 pb-5`}
+                      } flex flex-wrap justify-end sm:justify-center gap-5 items-center mb-10 sm:mb-5 pb-5`}
                     >
                       <p className="number">{id}</p>
                       <div className="block mx-auto">
@@ -130,7 +130,7 @@ const TopCollections = () => {
                       <p
                         className={`${
                           rankColor === "green" ? "rank-green" : "rank-red"
-                        } Poppins text-center sm:text-end xl:ml-10`}
+                        } Poppins text-center sm:text-end sm:ml-10 md:ml-5`}
                       >
                         {rank}
                       </p>
