@@ -124,10 +124,12 @@
 }
 
 // BORDERS
-.border-right1 {
-  border-right: 1px solid #ececec;
-}
+@media only screen and (min-width: 1024px) {
+  .border-right1 {
+    border-right: 1px solid #ececec;
+  }
 
-.border-right2 {
-  border: 1px solid #f4f4f4;
+  .border-right2 {
+    border-right: 1px solid #f4f4f4;
+  }
 }

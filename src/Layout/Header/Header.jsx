@@ -14,7 +14,7 @@ const Header = () => {
         <nav className="container mx-auto">
           <div className="grid grid-cols-12 gap-5">
             <h1
-              className="hvr-curl-bottom-right col-span-2 Integral logo"
+              className="hvr-curl-bottom-right border-right2 col-span-2 Integral logo"
               title="NFTERS"
             >
               NFTERS
