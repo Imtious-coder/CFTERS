@@ -4,15 +4,12 @@ $DM: "DM Sans", sans-serif;
 .hero-wrapper {
   height: auto !important;
   h1 {
-    font-family: "Integral CF", sans-serif;
     font-weight: 700;
     font-size: 40px;
     line-height: 48px;
     letter-spacing: 0.05em;
-    color: #000000;
   }
   h6 {
-    font-family: $DM;
     font-weight: 400;
     font-size: 20px;
     line-height: 160%;
@@ -27,30 +24,23 @@ $DM: "DM Sans", sans-serif;
     padding: 20px 40px;
     height: 65px;
     border-radius: 60px;
-    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 25px;
-    font-family: "Averta Demo PE Cutted Demo", sans-serif;
     letter-spacing: 0.065em;
     color: #ffffff;
   }
   .count-up {
     h2 {
-      font-family: "Integral CF";
-      font-style: normal;
       font-weight: 700;
       font-size: 40px;
       line-height: 48px;
       letter-spacing: 0.05em;
-      color: #000000;
     }
     p {
-      font-family: $DM;
-      font-style: normal;
       font-weight: 400;
       font-size: 20px;
-      line-height: 160%;
+      line-height: 32px;
       color: #565656;
     }
   }
@@ -71,7 +61,6 @@ $DM: "DM Sans", sans-serif;
       width: 100%;
       height: 100%;
       .card-title {
-        font-family: $DM;
         font-weight: 500;
         font-size: 28px;
         line-height: 36px;
@@ -98,20 +87,22 @@ $DM: "DM Sans", sans-serif;
         backdrop-filter: blur(25px);
         border-radius: 12px;
         .footer-title {
-          font-family: $DM;
-          font-style: normal;
           font-weight: 500;
           font-size: 12px;
           line-height: 16px;
           color: #ffffff;
         }
-        .footer-info {
-          font-family: $DM;
-          font-style: normal;
-          font-weight: 500;
+        .footer-nft,
+        .footer-time {
           font-size: 16px;
           line-height: 21px;
           color: #ffffff;
+        }
+        .footer-nft {
+          font-weight: 500;
+        }
+        .footer-time {
+          font-weight: 400;
         }
         .icon {
           color: white;
