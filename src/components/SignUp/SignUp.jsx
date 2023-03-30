@@ -9,7 +9,7 @@ import "./SignUp.scss";
 const SignUp = () => {
   return (
     <>
-      <section className="sign-up-wrapper py-10 sm:py-24 px-5">
+      <section className="sign-up-wrapper py-10 sm:py-24 px-8 sm:px-5">
         <div className="container mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-2 xl:gap-20">
             {/* Images */}
@@ -51,17 +51,17 @@ const SignUp = () => {
             </div>
             {/* Information */}
             <div className="col-span-1 mt-20 lg:my-auto">
-              <h1 className="mb-10 text-center md:text-start">
-                Create and sell your NFTs
+              <h1 className="Integral mb-10 text-center md:text-start">
+                Create and <br /> sell your NFTs
               </h1>
-              <p className="mb-8 text-center md:text-start">
+              <p className="DM mb-8 text-center md:text-start">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Facilisi ac phasellus placerat a pellentesque tellus sed
                 egestas. Et tristique dictum sit tristique sed non. Lacinia
                 lorem id consectetur pretium diam ut. Pellentesque eu sit
                 blandit fringilla risus faucibus.
               </p>
-              <button className="button1 sign-up-btn mx-auto md:mx-0">
+              <button className="Averta button1 sign-up-btn mx-auto md:mx-0">
                 Sign Up Now
               </button>
             </div>
