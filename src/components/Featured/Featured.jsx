@@ -5,12 +5,12 @@ import "./Featured.scss";
 const Featured = () => {
   return (
     <>
-      <section className="featured-wrapper sm:py-10 px-5 px:md-0">
+      <section className="featured-wrapper py-5 sm:py-24 px-5 px:md-0">
         <div className="container mx-auto">
-          <h1 className="text-center md:text-start">
+          <h1 className="Integral text-center md:text-start">
             Collection Featured NFTs
           </h1>
-          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 mt-14 gap-5">
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 mt-14 gap-8">
             {data?.map(
               (
                 {
@@ -28,7 +28,7 @@ const Featured = () => {
               ) => {
                 return (
                   <div className="col-span-1 mb-8 2xl:mb-0" key={index}>
-                    <div className="flex flex-col sm:flex-row justify-center md:justify-start gap-3 mb-5 sm:mb-10">
+                    <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-2.5 mb-5 sm:mb-7">
                       <img
                         src={mainImage}
                         alt="main_image"
@@ -74,20 +74,20 @@ const Featured = () => {
                         />
                       </div>
                     </div>
-                    <div className="lg:pr-20 lg:mr-10 xl:mr-0 xl:pr-8 2xl:pr-20 2xl:mr-8">
-                      <h2 className="mb-3 text-center md:text-start">
+                    <div className="lg:pr-20 lg:mr-10 xl:mr-0 xl:pr-8 2xl:pr-20 2xl:mr-8 pt-0.5">
+                      <h2 className="DM mb-2.5 text-center md:text-start">
                         {title}
                       </h2>
                       <div className="flex justify-center md:justify-between items-center gap-5 md:gap-0">
-                        <div className="flex gap-2 items-center">
+                        <div className="flex gap-2.5 items-center">
                           <img
                             src={profileImage}
                             alt="profile"
                             className="profile-image"
                           />
-                          <p className="name">{name}</p>
+                          <p className="DM name">{name}</p>
                         </div>
-                        <button className="button4 total-btn">
+                        <button className="DM button4 total-btn">
                           Total {totalItems} Items
                         </button>
                       </div>
