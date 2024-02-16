@@ -1,4 +1,4 @@
-# NFTERS
+# CFTERS
 
 #### Preview: https://nfters-io.netlify.app/
 
