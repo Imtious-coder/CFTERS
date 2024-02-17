@@ -1,8 +1,8 @@
 # CFTERS
 
-#### Preview: https://nfters-io.netlify.app/
+#### Preview: https://cfters-io.netlify.app/
 
-<a  href="https://nfters-io.netlify.app/"><img  width="100%"  height="100%"  src="./public/website.png"></a>
+<a  href="https://cfters-io.netlify.app/"><img  width="100%"  height="100%"  src="./public/website.png"></a>
 
 # Packages Installed
 
@@ -34,4 +34,4 @@
 
 ##### Tech & Tools: React.js, Tailwind CSS, SASS, React Router, Swiper.js, React Icons, Git, Github, Netlify, Data AOS, Hover.css, & Figma.
 
-###### TASK PROJECT
+###### Imtious Islam
