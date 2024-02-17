@@ -3,7 +3,7 @@ import "aos/dist/aos.css";
 import React, { useEffect } from "react";
 import { BsPatchCheckFill } from "react-icons/bs";
 import { SiEthereum } from "react-icons/si";
-import Image from "../../assets/images/top-collections/image.png";
+import Image from "../../assets/images/top-collections/image6.jpeg";
 import Profile from "../../assets/images/top-collections/profile.png";
 import { middleCards, topCards } from "../../utils/TopCollectionsData";
 import "./TopCollections.scss";

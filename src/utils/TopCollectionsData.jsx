@@ -1,7 +1,7 @@
 // MIDDLE CARDS IMAGES
-import middleImage1 from "../assets/images/top-collections/image1.png";
-import middleImage2 from "../assets/images/top-collections/image2.png";
-import middleImage3 from "../assets/images/top-collections/image3.png";
+import middleImage1 from "../assets/images/top-collections/image4.jpeg";
+import middleImage2 from "../assets/images/top-collections/image7.jpeg";
+import middleImage3 from "../assets/images/top-collections/image8.webp";
 import middleProfile from "../assets/images/top-collections/profile.png";
 
 // TOP CARDS IMAGES

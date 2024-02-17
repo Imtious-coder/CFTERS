@@ -1,7 +1,18 @@
 import Image1 from "../assets/images/all-nfts/image1.png";
+import Image10 from "../assets/images/all-nfts/image10.jpg";
+import Image11 from "../assets/images/all-nfts/image11.jpeg";
+import Image12 from "../assets/images/all-nfts/image12.jpeg";
+import Image13 from "../assets/images/all-nfts/image13.jpeg";
+import Image14 from "../assets/images/all-nfts/image14.jpeg";
+import Image15 from "../assets/images/all-nfts/image15.jpeg";
+import Image16 from "../assets/images/all-nfts/image16.webp";
+import Image17 from "../assets/images/all-nfts/image17.jpeg";
 import Image2 from "../assets/images/all-nfts/image2.png";
-import Image3 from "../assets/images/all-nfts/image3.png";
-import Image4 from "../assets/images/all-nfts/image4.png";
+import Image5 from "../assets/images/all-nfts/image5.jpg";
+import Image6 from "../assets/images/all-nfts/image6.jpg";
+import Image7 from "../assets/images/all-nfts/image7.jpg";
+import Image8 from "../assets/images/all-nfts/image8.jpg";
+import Image9 from "../assets/images/all-nfts/image9.jpg";
 import Profile1 from "../assets/images/all-nfts/profile1.png";
 import Profile2 from "../assets/images/all-nfts/profile2.png";
 import Profile3 from "../assets/images/all-nfts/profile3.png";
@@ -10,7 +21,7 @@ import Profile4 from "../assets/images/all-nfts/profile4.png";
 export const data = [
   {
     id: 0,
-    image: Image4,
+    image: Image7,
     radius: 13.16,
     profileImage1: Profile4,
     profileImage2: Profile2,
@@ -31,7 +42,7 @@ export const data = [
   },
   {
     id: 2,
-    image: Image2,
+    image: Image5,
     profileImage1: Profile4,
     profileImage2: Profile2,
     profileImage3: Profile1,
@@ -41,7 +52,7 @@ export const data = [
   },
   {
     id: 3,
-    image: Image3,
+    image: Image6,
     radius: 11,
     profileImage1: Profile4,
     profileImage2: Profile2,
@@ -52,7 +63,7 @@ export const data = [
   },
   {
     id: 4,
-    image: Image3,
+    image: Image2,
     radius: 11,
     profileImage1: Profile4,
     profileImage2: Profile2,
@@ -63,7 +74,7 @@ export const data = [
   },
   {
     id: 5,
-    image: Image2,
+    image: Image8,
     profileImage1: Profile4,
     profileImage2: Profile2,
     profileImage3: Profile1,
@@ -73,7 +84,7 @@ export const data = [
   },
   {
     id: 6,
-    image: Image4,
+    image: Image9,
     radius: 13.16,
     profileImage1: Profile4,
     profileImage2: Profile2,
@@ -84,7 +95,7 @@ export const data = [
   },
   {
     id: 7,
-    image: Image1,
+    image: Image10,
     profileImage1: Profile4,
     profileImage2: Profile2,
     profileImage3: Profile1,
@@ -94,7 +105,7 @@ export const data = [
   },
   {
     id: 8,
-    image: Image4,
+    image: Image11,
     radius: 13.16,
     profileImage1: Profile4,
     profileImage2: Profile2,
@@ -105,7 +116,7 @@ export const data = [
   },
   {
     id: 9,
-    image: Image3,
+    image: Image12,
     radius: 11,
     profileImage1: Profile4,
     profileImage2: Profile2,
@@ -116,7 +127,7 @@ export const data = [
   },
   {
     id: 10,
-    image: Image1,
+    image: Image13,
     profileImage1: Profile4,
     profileImage2: Profile2,
     profileImage3: Profile1,
@@ -126,7 +137,7 @@ export const data = [
   },
   {
     id: 11,
-    image: Image2,
+    image: Image14,
     profileImage1: Profile4,
     profileImage2: Profile2,
     profileImage3: Profile1,
@@ -136,7 +147,7 @@ export const data = [
   },
   {
     id: 12,
-    image: Image2,
+    image: Image15,
     profileImage1: Profile4,
     profileImage2: Profile2,
     profileImage3: Profile1,
@@ -146,7 +157,7 @@ export const data = [
   },
   {
     id: 13,
-    image: Image1,
+    image: Image16,
     profileImage1: Profile4,
     profileImage2: Profile2,
     profileImage3: Profile1,
@@ -156,7 +167,7 @@ export const data = [
   },
   {
     id: 14,
-    image: Image4,
+    image: Image17,
     radius: 13.16,
     profileImage1: Profile4,
     profileImage2: Profile2,
@@ -167,7 +178,7 @@ export const data = [
   },
   {
     id: 15,
-    image: Image3,
+    image: Image5,
     radius: 11,
     profileImage1: Profile4,
     profileImage2: Profile2,
@@ -178,7 +189,7 @@ export const data = [
   },
   {
     id: 16,
-    image: Image4,
+    image: Image7,
     radius: 13.16,
     profileImage1: Profile4,
     profileImage2: Profile2,
@@ -189,7 +200,7 @@ export const data = [
   },
   {
     id: 17,
-    image: Image1,
+    image: Image9,
     profileImage1: Profile4,
     profileImage2: Profile2,
     profileImage3: Profile1,
@@ -199,7 +210,7 @@ export const data = [
   },
   {
     id: 18,
-    image: Image2,
+    image: Image6,
     profileImage1: Profile4,
     profileImage2: Profile2,
     profileImage3: Profile1,
@@ -209,7 +220,7 @@ export const data = [
   },
   {
     id: 19,
-    image: Image3,
+    image: Image8,
     radius: 11,
     profileImage1: Profile4,
     profileImage2: Profile2,
@@ -220,7 +231,7 @@ export const data = [
   },
   {
     id: 20,
-    image: Image1,
+    image: Image12,
     profileImage1: Profile4,
     profileImage2: Profile2,
     profileImage3: Profile1,
@@ -230,7 +241,7 @@ export const data = [
   },
   {
     id: 21,
-    image: Image2,
+    image: Image10,
     profileImage1: Profile4,
     profileImage2: Profile2,
     profileImage3: Profile1,
@@ -240,7 +251,7 @@ export const data = [
   },
   {
     id: 22,
-    image: Image3,
+    image: Image11,
     radius: 11,
     profileImage1: Profile4,
     profileImage2: Profile2,
@@ -251,7 +262,7 @@ export const data = [
   },
   {
     id: 23,
-    image: Image4,
+    image: Image17,
     radius: 13.16,
     profileImage1: Profile4,
     profileImage2: Profile2,
