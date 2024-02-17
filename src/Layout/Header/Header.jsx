@@ -13,29 +13,30 @@ const Header = () => {
       <header className="header-wrapper main-header px-5 sm:px-0">
         <nav className="container mx-auto">
           <div className="grid grid-cols-12 gap-5">
-            <h1
-              className="hvr-curl-bottom-right border-right2 col-span-2 Integral logo"
-              title="NFTERS"
+            <Link
+              className="border-right-2 col-span-2 Integral logo flex"
+              to="/"
+              title="Market"
             >
-              NFTERS
-            </h1>
+              <h1 title="CFTERS">CFTERS</h1>
+            </Link>
             {/* navigations */}
             <div className="hidden col-span-4 lg:flex items-center justify-start gap-5 lg:gap-12 pl-9 ">
               <Link
-                to="/market"
+                to="/coming-soon"
                 className="hvr-bob navigation DM"
                 title="Market"
               >
                 Marketplace
               </Link>
               <Link
-                to="/resource"
+                to="/coming-soon"
                 className="hvr-bob navigation DM"
                 title="Resource"
               >
                 Resource
               </Link>
-              <Link to="/about" className="hvr-bob navigation DM" title="About">
+              <Link to="/coming-soon" className="hvr-bob navigation DM" title="About">
                 About
               </Link>
             </div>

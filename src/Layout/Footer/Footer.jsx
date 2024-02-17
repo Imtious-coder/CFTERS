@@ -18,7 +18,7 @@ const Footer = () => {
           <div className="grid grid-cols-12 lg:grid-cols-6 gap-5 lg:gap-24">
             <div data-aos="fade-right" className="col-span-12 lg:col-span-2">
               <h1 className="mb-7 Integral text-center sm:text-start">
-                NFTERS
+                CFTERS
               </h1>
               <p className="mb-8 Averta text-center sm:text-start">
                 The world’s first and largest digital marketplace for crypto
@@ -54,37 +54,37 @@ const Footer = () => {
             <div className="DM col-span-6 md:col-span-3 lg:col-span-1 my-5 lg:my-0">
               <h5 className="mb-2 md:mb-6">Market Place</h5>
               <h6>
-                <Link to="/" target={"_blank"}>
+                <Link to="/coming-soon" target={"_blank"}>
                   All NFTs
                 </Link>
               </h6>
               <h6>
-                <Link to="/" target={"_blank"}>
+                <Link to="/coming-soon" target={"_blank"}>
                   New
                 </Link>
               </h6>
               <h6>
-                <Link to="/" target={"_blank"}>
+                <Link to="/coming-soon" target={"_blank"}>
                   Art
                 </Link>
               </h6>
               <h6>
-                <Link to="/" target={"_blank"}>
+                <Link to="/coming-soon" target={"_blank"}>
                   Sports
                 </Link>
               </h6>
               <h6>
-                <Link to="/" target={"_blank"}>
+                <Link to="/coming-soon" target={"_blank"}>
                   Utility
                 </Link>
               </h6>
               <h6>
-                <Link to="/" target={"_blank"}>
+                <Link to="/coming-soon" target={"_blank"}>
                   Music
                 </Link>
               </h6>
               <h6>
-                <Link to="/" target={"_blank"}>
+                <Link to="/coming-soon" target={"_blank"}>
                   Domain Name
                 </Link>
               </h6>
@@ -92,22 +92,22 @@ const Footer = () => {
             <div className="DM col-span-6 md:col-span-3 lg:col-span-1 my-5 lg:my-0">
               <h5 className="mb-2 md:mb-6">My Account</h5>
               <h6>
-                <Link to="/" target={"_blank"}>
+                <Link to="/coming-soon" target={"_blank"}>
                   Profile
                 </Link>
               </h6>
               <h6>
-                <Link to="/" target={"_blank"}>
+                <Link to="/coming-soon" target={"_blank"}>
                   Favourite
                 </Link>
               </h6>
               <h6>
-                <Link to="/" target={"_blank"}>
+                <Link to="/coming-soon" target={"_blank"}>
                   My Collections
                 </Link>
               </h6>
               <h6>
-                <Link to="/" target={"_blank"}>
+                <Link to="/coming-soon" target={"_blank"}>
                   Settings
                 </Link>
               </h6>
@@ -142,7 +142,7 @@ const Footer = () => {
       {/* footer bottom */}
       <footer className="footer-bottom flex justify-center py-6">
         <h6 className="Averta">
-          Copyright &copy; {new Date().getFullYear()} NFTERS
+          Copyright &copy; {new Date().getFullYear()} CFTERS
         </h6>
       </footer>
     </>
